@@ -7,7 +7,7 @@ const Info = ({ title, subtitle }) => <div className='info'>
 
 export const Bank = ({ selectedIndex, image, name, interest, monthly, final, onClick  }) =>
     <div className='bank'>
-    <input type="checkbox" id={name} name="check" value={name}/>
+    <input type="checkbox" id={name} name="check" value="1" checked={selectedIndex !== -1} />
     <p className='NumiricalBank'>{selectedIndex === -1 ? undefined : selectedIndex + 1}</p>
     <label className='row' for={name} onClick={onClick} >
         <div className='col-md-3 img-container'>
