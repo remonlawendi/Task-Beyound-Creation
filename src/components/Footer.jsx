@@ -1,5 +1,7 @@
 import './Footer.css'
 export const Footer = () => {
+
+
     return (
         <section className="footer">
   <div class="container">

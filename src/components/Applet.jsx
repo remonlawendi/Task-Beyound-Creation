@@ -7,6 +7,7 @@ const banks = [{
     interest: 11.2,
     monthly: 2000,
     final: 100000,
+    total: 100000,
     image: 'ahly.png',
     selected: false
 }, {
@@ -15,6 +16,7 @@ const banks = [{
     interest: 10.2,
     monthly: 2200,
     final: 900000,
+    total: 100000,
     image: 'alinma.png',
     selected: false
 }, {
@@ -23,6 +25,7 @@ const banks = [{
     interest: 10,
     monthly: 2300,
     final: 100000,
+    total: 100000,
     image: 'saab.png',
     selected: false
 }, {
@@ -31,6 +34,7 @@ const banks = [{
     interest: 10,
     monthly: 2500,
     final: 100000,
+    total: 100000,
     image: 'saudi-french.png',
     selected: false
 }, {
@@ -39,6 +43,7 @@ const banks = [{
     interest: 10,
     monthly: 2100,
     final: 400000,
+    total: 100000,
     image: 'saudi.png',
     selected: false
 },{
@@ -47,6 +52,7 @@ const banks = [{
     interest: 10,
     monthly: 2100,
     final: 400000,
+    total: 100000,
     image: 'saudi.png',
     selected: false
 }
@@ -76,5 +82,7 @@ export const Applet = ({ Bank }) => {
     return (<div className="offset-lg-3 col-md-6 applets">
         <span className="filter">Filter by:</span> <Sort onSelect={onSort}/>
         {banks.sort((a, b) => a[sort] - b[sort]).map(({id, ...rest}) => <Bank onClick={() => onSelect(id)} selectedIndex={selected.indexOf(id)} key={id} {...rest} />)}
+        <button  href="" target="_blank" class="Apply-financing col-md-4">Apply for financing</button>
     </div>)
+  
 }
