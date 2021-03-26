@@ -1,0 +1,25 @@
+.wrapper {
+    width: 100vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08); ;
+}
+
+
+.nav-first-list li a{
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+    color: #000 !important;
+}
+.nav-first-list li , .nav-second-list li {
+    padding: 0 20px ;
+}
+.nav-second-list li a{
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 42px !important;
+    color: #000 !important;
+    padding: 0 100px ;
+}
+.nav-second-list li a span{
+    padding-left:10px;
+}

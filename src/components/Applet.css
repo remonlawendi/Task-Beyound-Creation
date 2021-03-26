@@ -1,0 +1,24 @@
+.applets {
+    margin: 50px 0;
+    text-align: center;
+}
+select {
+    background-color: none;
+}
+select, option{
+    border: 0;
+    background-color: #fff;
+}
+.filter , select {
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 22px;
+ color: rgba(200, 203, 207, 1);
+}
+.filter {
+    color: rgba(200, 203, 207, 1);
+   }
+   select {
+    
+    color:  rgba(0, 0, 0, 1);
+   }

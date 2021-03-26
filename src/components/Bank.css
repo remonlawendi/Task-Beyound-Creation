@@ -1,0 +1,53 @@
+.bank {
+ 
+Height :  137px;
+    box-shadow: 0px 4px 50px rgba(54, 71, 98, 0.12);
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.bank h1 {
+    text-align: left;
+    font-size: 40px;
+}
+
+h2 {
+
+}
+
+img {
+    margin: auto;
+}
+
+.bank .description {
+    margin: 20px;   
+}
+
+
+.img-container {
+    display: flex;
+    border-right: 1px solid rgba(235, 235, 235, 1);
+}
+.NumiricalBank {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: ;
+    color: #fff;
+    background-color: #000;
+    border-radius:50%;
+    5-webkit-border-radius:;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+input[type=checkbox]{
+    /* display: none; */
+}

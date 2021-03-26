@@ -1,0 +1,7 @@
+html * {
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item a {
+    color: black;
+    font-weight: 700;
+}
