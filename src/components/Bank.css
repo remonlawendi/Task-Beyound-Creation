@@ -1,5 +1,5 @@
 
- 
+ /* bank style here  */
 .bank {
  
 max-height:   137px;
@@ -110,3 +110,5 @@ input[type=checkbox]:checked  < .bank:active {
           justify-content: center !important;
       }
   }
+  
+ /* bank style here  */
